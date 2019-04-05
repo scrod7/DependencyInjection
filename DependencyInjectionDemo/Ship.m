@@ -7,10 +7,9 @@
 //
 
 #import "Ship.h"
-#import "Jiang.h"
 
 @interface Ship()
-@property (nonatomic, strong)Jiang *jiang;
+
 @end
 
 
