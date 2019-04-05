@@ -7,14 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QButton.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LampViewController : NSObject
+@interface Lamp : NSObject <ButtonServerDelegate>
+
 @property (nonatomic, assign)BOOL isOn;
 @property (nonatomic, strong)UIView *dengGuan;
--(void)turnOn;
--(void)turnOff;
+- (void)switchTap;
+
 @end
+
+
 
 NS_ASSUME_NONNULL_END

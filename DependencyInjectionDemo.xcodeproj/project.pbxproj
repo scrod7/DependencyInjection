@@ -13,7 +13,8 @@
 		1971F825225703D700CE88A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1971F824225703D700CE88A2 /* Assets.xcassets */; };
 		1971F828225703D700CE88A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1971F826225703D700CE88A2 /* LaunchScreen.storyboard */; };
 		1971F82B225703D700CE88A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F82A225703D700CE88A2 /* main.m */; };
-		1971F83C225738A000CE88A2 /* LampViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F83B225738A000CE88A2 /* LampViewController.m */; };
+		1971F83C225738A000CE88A2 /* Lamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F83B225738A000CE88A2 /* Lamp.m */; };
+		1971F83F22574C6500CE88A2 /* QButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F83E22574C6500CE88A2 /* QButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +28,10 @@
 		1971F827225703D700CE88A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1971F829225703D700CE88A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1971F82A225703D700CE88A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1971F83A225738A000CE88A2 /* LampViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LampViewController.h; sourceTree = "<group>"; };
-		1971F83B225738A000CE88A2 /* LampViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LampViewController.m; sourceTree = "<group>"; };
+		1971F83A225738A000CE88A2 /* Lamp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lamp.h; sourceTree = "<group>"; };
+		1971F83B225738A000CE88A2 /* Lamp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lamp.m; sourceTree = "<group>"; };
+		1971F83D22574C6500CE88A2 /* QButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QButton.h; sourceTree = "<group>"; };
+		1971F83E22574C6500CE88A2 /* QButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +68,10 @@
 				1971F81C225703D500CE88A2 /* AppDelegate.m */,
 				1971F81E225703D500CE88A2 /* ViewController.h */,
 				1971F81F225703D500CE88A2 /* ViewController.m */,
-				1971F83A225738A000CE88A2 /* LampViewController.h */,
-				1971F83B225738A000CE88A2 /* LampViewController.m */,
+				1971F83A225738A000CE88A2 /* Lamp.h */,
+				1971F83B225738A000CE88A2 /* Lamp.m */,
+				1971F83D22574C6500CE88A2 /* QButton.h */,
+				1971F83E22574C6500CE88A2 /* QButton.m */,
 				1971F821225703D500CE88A2 /* Main.storyboard */,
 				1971F824225703D700CE88A2 /* Assets.xcassets */,
 				1971F826225703D700CE88A2 /* LaunchScreen.storyboard */,
@@ -146,8 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1971F83C225738A000CE88A2 /* LampViewController.m in Sources */,
+				1971F83C225738A000CE88A2 /* Lamp.m in Sources */,
 				1971F820225703D500CE88A2 /* ViewController.m in Sources */,
+				1971F83F22574C6500CE88A2 /* QButton.m in Sources */,
 				1971F82B225703D700CE88A2 /* main.m in Sources */,
 				1971F81D225703D500CE88A2 /* AppDelegate.m in Sources */,
 			);

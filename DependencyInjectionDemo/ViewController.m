@@ -7,25 +7,26 @@
 //
 
 #import "ViewController.h"
-#import "LampViewController.h"
-#import "Ship.h"
+#import "QButton.h"
+#import "Lamp.h"
 
 @interface ViewController ()
-@property(nonatomic, strong) UIButton *button;
-@property(nonatomic, strong) LampViewController *lamp;
+@property(nonatomic, strong) QButton *button;
+@property(nonatomic, strong) Lamp *lamp;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.lamp = [[LampViewController alloc] init];
+    
+    
+    self.lamp = [[Lamp alloc] init];
     [self.view addSubview:self.lamp.dengGuan];
-    self.button = [[UIButton alloc] initWithFrame:CGRectMake(100, 400, 100, 62)];
-    self.button.backgroundColor = [UIColor grayColor];
-    self.button.titleLabel.text = @"开关";
-    self.button.titleLabel.textColor = [UIColor whiteColor];
-    [self.button addTarget:self action:@selector(p_tapButton) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.button = [[QButton alloc] init];
+    [self.button addTarget:self action:@selector(p_tap) forControlEvents:UIControlEventTouchUpInside];
+    self.button.delegate = self.lamp;
     [self.view addSubview:self.button];
     
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 140, 100, 260)];
@@ -33,15 +34,9 @@
     [self.view addSubview:view];
 }
 
-- (void)p_tapButton
-{
-    if (self.lamp.isOn) {
-        [self.lamp turnOff];
-    }else
-        [self.lamp turnOn];
-    NSLog(@"d");
+-(void)p_tap{
+    [self.button p_tapButton];
 }
-
 
 
 @end

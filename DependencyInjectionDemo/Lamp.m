@@ -6,13 +6,14 @@
 //  Copyright © 2019 qiqi. All rights reserved.
 //
 
-#import "LampViewController.h"
+#import "Lamp.h"
+#import "ViewController.h"
 
-@interface LampViewController ()
+@interface Lamp ()
 
 @end
 
-@implementation LampViewController
+@implementation Lamp
 
 - (instancetype)init
 {
@@ -23,6 +24,13 @@
         self.dengGuan.backgroundColor = [UIColor blackColor];
     }
     return self;
+}
+
+- (void)switchTap{
+    if (self.isOn) {
+        [self turnOff];
+    }else
+        [self turnOn];
 }
 
 - (void)turnOn{
