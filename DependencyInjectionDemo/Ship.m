@@ -7,7 +7,7 @@
 //
 
 #import "Ship.h"
-
+#import "Human.h"
 @interface Ship()
 
 @end
@@ -18,7 +18,8 @@
 {
     self = [super init];
     if (self) {
-        self.jiang = [[Jiang alloc] initWithSize:10];
+        Human *human = [[Human alloc] init];
+        self.jiang = [human makeJiang];
         
     }
     return self;

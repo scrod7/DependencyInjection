@@ -15,6 +15,7 @@
 		1971F82B225703D700CE88A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F82A225703D700CE88A2 /* main.m */; };
 		1971F8332257043300CE88A2 /* Ship.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F8322257043300CE88A2 /* Ship.m */; };
 		1971F8362257044100CE88A2 /* Jiang.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F8352257044100CE88A2 /* Jiang.m */; };
+		1971F83922570A2900CE88A2 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 1971F83822570A2900CE88A2 /* Human.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		1971F8322257043300CE88A2 /* Ship.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ship.m; sourceTree = "<group>"; };
 		1971F8342257044100CE88A2 /* Jiang.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jiang.h; sourceTree = "<group>"; };
 		1971F8352257044100CE88A2 /* Jiang.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jiang.m; sourceTree = "<group>"; };
+		1971F83722570A2900CE88A2 /* Human.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		1971F83822570A2900CE88A2 /* Human.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 				1971F81F225703D500CE88A2 /* ViewController.m */,
 				1971F8312257043300CE88A2 /* Ship.h */,
 				1971F8322257043300CE88A2 /* Ship.m */,
+				1971F83722570A2900CE88A2 /* Human.h */,
+				1971F83822570A2900CE88A2 /* Human.m */,
 				1971F8342257044100CE88A2 /* Jiang.h */,
 				1971F8352257044100CE88A2 /* Jiang.m */,
 				1971F821225703D500CE88A2 /* Main.storyboard */,
@@ -154,6 +159,7 @@
 				1971F820225703D500CE88A2 /* ViewController.m in Sources */,
 				1971F8332257043300CE88A2 /* Ship.m in Sources */,
 				1971F82B225703D700CE88A2 /* main.m in Sources */,
+				1971F83922570A2900CE88A2 /* Human.m in Sources */,
 				1971F81D225703D500CE88A2 /* AppDelegate.m in Sources */,
 				1971F8362257044100CE88A2 /* Jiang.m in Sources */,
 			);
